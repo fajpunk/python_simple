@@ -1,7 +1,14 @@
-class App:
-    def some_func(self) -> str:
-        return "Woohoo!"
+"""
+FIXME: This script does some stuff
+"""
+
+
+def some_func() -> str:
+    """
+    FIXME: This function does some stuff
+    """
+    return "Woohoo!"
+
 
 if __name__ == "__main__":
-    app = App()
-    print(app.some_func())
+    print(some_func())
